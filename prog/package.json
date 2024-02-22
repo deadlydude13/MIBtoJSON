@@ -1,0 +1,26 @@
+{
+  "name": "mibtojson",
+  "version": "1.0.0",
+  "description": "- zu konvertierende mib-datei reinkopieren und \"input-file.mib\" benennen (wichtig .mib anfügen!)\r - link doppelklicken\r - output-file = konvertierte mib file als json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asn2json": "^0.0.2",
+    "node": "^21.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "redux": "^5.0.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
